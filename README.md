@@ -21,13 +21,14 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#how-to-use?">How to Use?</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#pre-requisites">Pre-requisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -44,6 +45,34 @@ Using Python and its libraries, pairing with with Selenium to extract, convert a
 Pair with Github Actions to automate extraction every week at a specific time.
 
 This project was created to assist in uploading the youtube content or videos into podcasts.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- How to Use? -->
+
+### How to Use?
+
+Using Youtube Playlist:
+
+Paste YouTube Playlist links to "youtube_url.txt" file and run with either 1. or 2.
+
+1. Run
+
+```sh
+python main.py -y
+```
+
+2. GitHub Action
+
+Using Videos on Desktop:
+
+Put video files into "videos" folder
+Input video file name and corresponding description to "details.txt"
+Run
+
+```sh
+python main.py -v
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

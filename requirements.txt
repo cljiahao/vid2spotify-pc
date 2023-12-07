@@ -1,0 +1,5 @@
+# dotenv
+yt_dlp==2023.9.24
+pytube==15.0.0
+selenium==4.13.0
+webdriver_manager==4.0.1

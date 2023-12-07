@@ -6,6 +6,10 @@ from backend.core.json_txt import read_txt, write_json
 
 
 def videos():
+    path = directory.video_path
+    if not os.path.exists(path):
+        os.makedirs(path)
+
     data = read_txt("./details.txt")
 
     details = {}
@@ -13,7 +17,6 @@ def videos():
         res = i.split("|")
         details[res[0]] = res[1]
 
-    path = directory.video_path
     res = start_uploading(path, details)
     if res:
         write_json(f"./src/backend/core/json/videos.json", os.listdir(path))
