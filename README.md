@@ -84,7 +84,7 @@ Below are the steps to install the libraries to start your journey
 2. Run command line in folder
 3. Clone Repo
    ```sh
-   git clone https://github.com/cljiahao/HTML5-Practice.git
+   git clone [https://github.com/cljiahao/vid2spotify-pc.git]
    ```
 4. Install Packages using PIP
    ```sh
